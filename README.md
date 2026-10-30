@@ -207,7 +207,8 @@ Default topics from `bringup/config/explorer_params.yaml`:
 
 | Topic | Type | Direction | Meaning |
 | --- | --- | --- | --- |
-| `/joystick_cartesian_command` | `geometry_msgs/msg/TwistStamped` | input | Joystick Cartesian velocity command. |
+| `/physical_joystick_cartesian_command` | `geometry_msgs/msg/TwistStamped` | input | Physical joystick Cartesian velocity command. |
+| `/face_joystick_cartesian_command` | `geometry_msgs/msg/TwistStamped` | input | Face joystick Cartesian velocity command. |
 | `/hand_joystick_cartesian_command` | `geometry_msgs/msg/TwistStamped` | input | Hand joystick Cartesian velocity command. |
 | `/tablet_cartesian_command` | `geometry_msgs/msg/TwistStamped` | input | Tablet Cartesian velocity command. |
 | `/visual_servoing_cartesian_command` | `geometry_msgs/msg/TwistStamped` | input | Visual-servoing Cartesian velocity command. |
